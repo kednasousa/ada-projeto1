@@ -1,0 +1,9 @@
+@media (max-width: 740px) {
+	.hamburguer__menu {
+		display: block;
+	}
+
+	.nav__list {
+		display: none;
+	}
+}

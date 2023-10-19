@@ -1,0 +1,10 @@
+@media (max-width: 920px) {
+	.banner {
+		align-items: center;
+		flex-direction: column-reverse;
+		gap: 2rem;
+	}
+	.banner__content {
+		text-align: center;
+	}
+}

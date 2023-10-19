@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./src/css/reset.css">
+	<link rel="stylesheet" href="./src/css/styles.css">
+	<link rel="stylesheet" href="./src/css/navigation/nav.css">
+	<link rel="stylesheet" href="./src/css/banner/banner.css">
+	<link rel="stylesheet" href="./src/css/btn/btn.css">
+	<link rel="stylesheet" href="./src/css/posts/posts.css">
+	<link rel="stylesheet" href="./src/css/navigation/responsive-nav.css">
+	<link rel="stylesheet" href="./src/css/banner/responsive-banner.css">
+	<link rel="stylesheet" href="./src/css/posts/responsive-posts.css">
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+			<a class="nav__brand" href="#">Kedna Sousa</a>
+
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="#">Works</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#">Blog</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#">Contact</a>
+				</li>
+			</ul>
+
+			<div class="hamburguer__menu">
+				<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0 1H30" stroke="#21243D" stroke-width="1.6"/>
+					<path d="M0 10H30" stroke="#21243D" stroke-width="1.6"/>
+					<path d="M0 19H30" stroke="#21243D" stroke-width="1.6"/>
+					</svg>					
+			</div>
+		</nav>
+	</header>
+
+	<main class="main__container">
+		<section class="banner">
+			<div class="banner__content">
+				<h1 class="banner__content__title">Hi, I am Kedna,<br /> Creative Technologist</h1>
+				<p class="banner__content__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi deserunt
+					dolor aperiam ea
+					assumenda non exercitationem error dolorem incidunt optio eaque quis tempora officia explicabo hic delectus,
+					debitis obcaecati earum!</p>
+				<button class="banner__content__btn">Download resume</button>
+			</div>
+
+			<img class="banner__image" src="./src/image/kedna.jpg" alt="Foto de Kedna">
+		</section>
+
+		<section class="posts">
+			<div class="posts__content">
+				<div class="posts__content__header">
+					<h2 class="section__title">Recents posts</h2>
+					<a href="#" class="view__all__link">View all</a>
+				</div>
+
+				<div class="posts__cards">
+					<div class="post__card">
+						<h3 class="post__card__title">Making a design system from scratch</h3>
+						<span class="post__card__data">12 Feb 2020</span>
+						<p class="post__card__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+					</div>
+
+					<div class="post__card">
+						<h3 class="post__card__title">Creating pixel perfect icons in Figma</h3>
+						<span class="post__card__data">12 Feb 2020</span>
+						<p class="post__card__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer></footer>
+</body>
+
+</html>

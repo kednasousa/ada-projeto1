@@ -1,0 +1,43 @@
+.navbar {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 2rem;
+	font-size: 20px;
+	height: 5rem;
+}
+
+.nav__brand {
+	font-size: 2.2rem;
+	font-weight: var(--400);
+	font-family: var(--font-header);
+	text-shadow: 1px 3px 2px #000;
+}
+
+.nav__list {
+	align-items: center;
+	display: flex;
+	gap: 2rem;
+}
+
+.nav__link {
+	color: var(--branco-gelo);
+	font-size: 1.25rem;
+	font-weight: var(--500);
+	border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+
+}
+
+.hamburguer__menu {
+	display: none;
+}
+
+.nav__link:hover{
+	color: var(--rose);
+	border-bottom: 2px solid var(--rose);
+	transition: color 0.3s ease-in-out;
+}

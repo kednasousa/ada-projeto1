@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&family=M+PLUS+1+Code&display=swap');
+
+:root {
+	--font-header: 'M PLUS 1 Code', monospace;
+	--font-main: 'Heebo', sans-serif;
+	--400: 400;
+	--500: 500;
+	--700: 700;
+	--900: 900;
+
+	--rose: #F9B572;
+	--verde-medio: #99B080;
+	--verde-escuro: #748E63;
+	--branco-gelo: #F5F7F8;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: var(--branco-gelo);
+}
+
+a {
+	text-decoration: none;
+}
+ul, ol {
+	list-style: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: var(--font-main);
+}

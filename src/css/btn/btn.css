@@ -1,0 +1,8 @@
+.banner__content__btn {
+	border: none;
+	border-radius: 2px;
+	background: var(--rose);
+	color: var(--branco-gelo);
+	font-size: 1.25rem;
+	padding: .5rem 1.25rem;
+}

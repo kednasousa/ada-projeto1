@@ -1,0 +1,12 @@
+body {
+	background: var(--verde-escuro);
+}
+
+header{
+	background-color: var(--verde-medio);
+	height: 5rem;
+}
+
+.main__container {
+	margin-top: 6rem;
+}
